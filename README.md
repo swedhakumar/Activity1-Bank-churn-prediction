@@ -1,1 +1,2 @@
 # Activity1-Bank-churn-prediction
+ Customer churn is a significant concern for banks, as it impacts revenue and customer satisfaction. Understanding the factors that contribute to customer churn and developing strategies to retain customers are crucial for the long-term success of the bank. In this project, we aim to analyze customer churn in a bank dataset and provide actionable recommendations to improve user retention.
