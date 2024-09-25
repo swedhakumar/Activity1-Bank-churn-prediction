@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Bank customer churn prediction</title>
+        <style>
+            body {
+            margin: 0;
+            padding: 0;
+            
+            background-image: url('https://miro.medium.com/max/844/1*MyKDLRda6yHGR_8kgVvckg.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative
+            }
+
+            
+            
+input[type=number], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color:#031b2c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #072431;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+            
+        </style>
+    </head>
+     <body>
+
+     <center>
+        
+            <h2>Enter Customer Details</h2>
+            <form method="POST" action="/input">
+                <label for="cs"><b>ENTER THE CREDIT SCORE </b> </label><br>
+                <input id = "cs" type="text" name="cs" placeholder="Enter the credit score" required><br><br>
+                <label for="geo"><b>SELECT THE COUNTRY </b> </label>
+                <br>
+                <select name="geo">
+                    
+                    <option value=0>France</option>
+                    <option value=1>Spain</option>
+                    <option value=2>Germany</option>
+                    
+                    
+                </select>
+               <br><br>
+                <label for="gender"><b>SELECT THE GENDER </b> </label>
+                <br>
+                    <select name="gender">
+                    <option value=0>Female</option>
+                    <option value=1>Male</option>
+                    
+                </select><br><br>
+                <label for="age"><b>ENTER THE AGE </b> </label><br>
+                <input id = "age" type="text" name="age" placeholder="Enter the age" required><br><br>
+                
+                <label for="tenure"><b>ENTER THE TENURE </b> </label><br>
+                <input id = "tenure" type="text" name="tenure" placeholder="Enter the tenure"  required><br><br> 
+                <label for="balance"><b>ENTER THE BALANCE</b>  </label><br>
+                <input id = "balance" type="text" name="balance" placeholder="Enter the balance"  required>
+                <br><br>
+                <label for="np"><b>ENTER THE NO OF PRODUCTS</b>  </label><br>
+                <input id = "np" type="text" name="np" placeholder="Enter the no of products"  required>
+                <br><br>
+                <label for="crd"><b>DO HAVE CREDIT CARD </b> </label>
+                <br>
+                    <select name="crd">
+                    <option value=0>No</option>
+                    <option value=1>Yes</option>
+                    
+                </select><br><br>
+                <label for="active"><b>ARE YOU AN ACTIVE MEMBER </b> </label>
+                <br>
+                    <select name="active">
+                    <option value=0>No</option>
+                    <option value=1>Yes</option>
+                    
+                </select><br><br>
+                <label for="salary"><b>ENTER THE SALARY</b>  </label><br>
+                <input id = "salary" type="text" name="salary" placeholder="Enter the salary"  required>
+                <br><br>
+
+                <input type="submit" value="SUBMIT">
+
+                
+            </form>
+        </center>
+    </body>
+</html>
