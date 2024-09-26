@@ -1,4 +1,4 @@
-#Activity1-Bank Churn Prediction
+#Activity1-Bank Churn Prediction\n
 #This project predicts customer churn in a bank based on various customer attributes. It uses machine learning algorithms to classify customers who are likely #to churn (exit the bank) and those who are likely to stay.
 #Project Overview
 Customer churn is a significant issue for businesses, and predicting which customers are likely to churn can help businesses take necessary actions to retain them. This project uses a dataset of bank customers and builds a machine learning model to predict whether a customer will churn based on their characteristics such as age, balance, number of products, etc.
